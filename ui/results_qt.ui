@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>results</class>
+ <widget class="QMainWindow" name="results">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>422</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Результаты экзаменов</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>341</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="table_b">
+       <property name="text">
+        <string>Добавить таблицу в базу данных</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="window_button1">
+       <property name="text">
+        <string>Добавить ученика в базу данных</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="window_button2">
+       <property name="text">
+        <string>Вывести таблицу</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="window_button">
+       <property name="text">
+        <string>Вывести инфографику</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>311</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Результаты Экзаменов</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>422</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>Добавить предмет</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Добавить ученика</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>Вывести таблицу</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
